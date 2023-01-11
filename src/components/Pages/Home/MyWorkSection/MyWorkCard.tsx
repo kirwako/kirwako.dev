@@ -5,7 +5,7 @@ const MyWorkCard: React.FC<{
 }> = ({ work }) => {
 	return (
 		<div className="basis-full md:basis-auto">
-			<div className="site-card hidden md:block">
+			<div className="site-card hidden md:block  max-h-[150px]  overflow-hidden">
 				<OutsideLink to={work.website} className="rounded-[6px]">
 					<div className="card-toolbar">
 						<span className="card-toolbar-button"></span>
