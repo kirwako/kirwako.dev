@@ -11,7 +11,7 @@ const ContactSection: React.FC = () => {
 		<Layout>
 			<Header text={HomeContent.contactSection.header} />
 			<ThisUi />
-			<div className="flex flex-wrap justify-between mt-6 gap-y-4">
+			<div className="flex flex-wrap justify-between md:justify-center md:gap-x-16 mt-6 gap-y-4">
 				{HomeContent.contactSection.socialMedia.map(
 					(socialMedia, index) => (
 						<OutsideLink to={socialMedia.link} key={index} className="flex flex-col items-center gap-2 basis-1/3 md:basis-auto">
