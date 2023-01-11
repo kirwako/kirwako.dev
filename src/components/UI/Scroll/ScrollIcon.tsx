@@ -2,11 +2,13 @@ import { Player } from "@lottiefiles/react-lottie-player";
 
 const ScrollIcon: React.FC<{
 	isWhite?: boolean;
+	className?: string;
 }> = ({
 	isWhite = false,
+	className = "",
 }) => {
 	return (
-		<div className="mt-6">
+		<div className={`mt-6 ${className}`}>
 			<Player
 				autoplay
 				loop

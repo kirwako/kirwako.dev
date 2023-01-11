@@ -10,7 +10,7 @@ const NameSection: React.FC = () => {
 	return (
 		<>
 			{/* <NavBar /> */}
-			<Layout>
+			<Layout className="!min-h-screen">
 				<Header text={HomeContent.nameSection.header} />
 				<Header text={HomeContent.nameSection.subHeader} />
 				<ThisUi />
