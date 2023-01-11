@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	margin: 0;
+	padding: 0;
+	// height: 10000px;
+	@apply bg-beige text-grey;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.card-toolbar {
+	background-color: #f2f2f2;
+	border-radius: 6px 6px 0 0;
+	height: 24px;
+	padding: 0 12px;
+	position: relative;
+}
+.f-gap {
+	row-gap: 1vmin;
+}
+.site-card {
+	// box-shadow: 2px 5px 15px 0 rgba(255, 255, 255, 0.18);
+	box-shadow: 0 10px 20px 0 rgba(255, 255, 255, 0.083);
+	transition: all 0.4s ease;
+	will-change: box-shadow;
+}
+.site-card:hover {
+	box-shadow: 0 10px 20px 0 rgb(0 0 0 / 15%);
+	transform: scale(1.05);
+}
+h4 {
+	color: #15171a;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 0.2rem;
+}
+p {
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 0.8rem;
+	font-weight: 500;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.mb-6 {
+	margin-bottom: 4rem;
+}
+.port-img {
+	border-radius: 0 0 6px 6px;
+}
+.card-toolbar-button {
+	background-color: #c4c4c4;
+	border-radius: 50%;
+	display: block;
+	height: 8px;
+	position: relative;
+	top: 11px;
+	width: 8px;
+}
+.card-toolbar-button:before {
+	left: 12px;
+}
+.card-toolbar-button:after,
+.card-toolbar-button:before {
+	background-color: #c4c4c4;
+	border-radius: 50%;
+	content: "";
+	height: 8px;
+	position: absolute;
+	width: 8px;
+}
+.card-toolbar-button {
+	transition: all 0.4s ease;
+}
+.card-toolbar-button:after {
+	transition: all 0.6s ease;
+}
+.card-toolbar-button:before {
+	transition: all 0.8s ease;
+}
+.site-card:hover .card-toolbar-button:after {
+	background-color: #60c655;
+}
+.site-card:hover .card-toolbar-button:before {
+	background-color: #f6bf4f;
+}
+.site-card:hover .card-toolbar-button {
+	background-color: #ee6b5f;
+}
+.card-toolbar-button:after {
+	left: 24px;
+}
