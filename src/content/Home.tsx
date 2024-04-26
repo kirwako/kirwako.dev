@@ -86,7 +86,7 @@ export const HomeContent = {
 			{
 				label: "Linkedin",
 				icon: <LinkedinIcon className="h-12 " /> as JSX.Element,
-				link: "https://www.linkedin.com/in/imran-baali-055795199/"
+				link: "https://www.linkedin.com/in/imran-baali/"
 			},
 			{
 				label: "Twitter",
