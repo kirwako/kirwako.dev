@@ -7,7 +7,7 @@ import { ReactComponent as IllustratorIcon } from "../assets/tools/illustrator.s
 import { ReactComponent as BehanceIcon } from "../assets/socialMedia/behance.svg";
 import { ReactComponent as EmailIcon } from "../assets/socialMedia/email.svg";
 import { ReactComponent as GithubIcon } from "../assets/socialMedia/github.svg";
-import { ReactComponent as InstagramIcon } from "../assets/socialMedia/instagram.svg";
+// import { ReactComponent as InstagramIcon } from "../assets/socialMedia/instagram.svg";
 import { ReactComponent as LinkedinIcon } from "../assets/socialMedia/linkedin.svg";
 import { ReactComponent as TwitterIcon } from "../assets/socialMedia/twitter.svg";
 
@@ -98,11 +98,11 @@ export const HomeContent = {
 				icon: <GithubIcon className="h-12 " /> as JSX.Element,
 				link: "https://github.com/kirwako"
 			},
-			{
-				label: "Instagram",
-				icon: <InstagramIcon className="h-12 " /> as JSX.Element,
-				link: "https://www.instagram.com/baali_imran"
-			},
+			// {
+			// 	label: "Instagram",
+			// 	icon: <InstagramIcon className="h-12 " /> as JSX.Element,
+			// 	link: "https://www.instagram.com/baali_imran"
+			// },
 			{
 				label: "Email",
 				icon: <EmailIcon className="h-12 " /> as JSX.Element,
