@@ -106,7 +106,7 @@ export const HomeContent = {
 			{
 				label: "Email",
 				icon: <EmailIcon className="h-12 " /> as JSX.Element,
-				link: "mailto:me@kirwako.com"
+				link: "mailto:me@kirwako.dev"
 			}
 		]
 	}
