@@ -5,7 +5,7 @@
     "type": "module",
     "scripts": {
         "start": "vite --host --port 3000",
-        "build": "tsc && vite build",
+        "build": "tsc && vite build && cp -R privacy-policy dist/privacy-policy",
         "preview": "vite preview"
     },
     "dependencies": {
